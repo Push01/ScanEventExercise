@@ -1,5 +1,10 @@
 ScanEventExercise
 
+#Description:
+
+ScanEventExercise is worker application that consumes a scan event API and records the last event made 
+against a parcel and any pickup or delivery times
+
 #Assumptions:
 
 - Scan Event API endpoint returns the event data from json file from ( \\Data\\scanevents.json). For testing purpose I have added 3 events in scanevents.json 
