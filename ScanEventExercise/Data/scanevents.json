@@ -1,0 +1,52 @@
+﻿{
+  "ScanEvents": [
+    {
+      "EventId": 83269, //Unique Event ID
+      "ParcelId": 5002, //The Parcel The Scan Event Applies To
+      "Type": "PICKUP", //PICKUP, STATUS, DELIVERY
+      "CreatedDateTimeUtc": "2021-05-11T21:11:34.1506147Z",
+      "StatusCode": "",
+      "Device": {
+        "DeviceTransactionId": 83269,
+        "DeviceId": 103
+      },
+      "User": {
+        "UserId": "NC1001",
+        "CarrierId": "NC", //NC, PH, CP, NW
+        "RunId": "100"
+      }
+    },
+    {
+      "EventId": 83270, //Unique Event ID
+      "ParcelId": 5002, //The Parcel The Scan Event Applies To
+      "Type": "DELIVERY", //PICKUP, STATUS, DELIVERY
+      "CreatedDateTimeUtc": "2021-06-11T21:11:34.1506147Z",
+      "StatusCode": "",
+      "Device": {
+        "DeviceTransactionId": 83269,
+        "DeviceId": 103
+      },
+      "User": {
+        "UserId": "NC1001",
+        "CarrierId": "NC", //NC, PH, CP, NW
+        "RunId": "100"
+      }
+    },
+    {
+      "EventId": 83271, //Unique Event ID
+      "ParcelId": 5003, //The Parcel The Scan Event Applies To
+      "Type": "DELIVERY", //PICKUP, STATUS, DELIVERY
+      "CreatedDateTimeUtc": "2021-06-11T21:11:34.1506147Z",
+      "StatusCode": "",
+      "Device": {
+        "DeviceTransactionId": 83269,
+        "DeviceId": 103
+      },
+      "User": {
+        "UserId": "NC1001",
+        "CarrierId": "NC", //NC, PH, CP, NW
+        "RunId": "100"
+      }
+    }
+  ]
+}
